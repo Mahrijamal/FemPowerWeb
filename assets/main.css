@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Tenor+Sans&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.navbar .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .right ul li {
+  list-style: none;
+  margin-right: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .right ul li a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.07em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.navbar .right ul li a:hover {
+  color: #FFCC33;
+}
+
+.navbar .right .lang {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.07em;
+  border: 1px solid #dd4d7c;
+}
+
+.navbar .right .lang:hover .lang-content {
+  display: block;
+}
+
+.navbar .right .lang .dropbtn {
+  width: 120px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.07em;
+  padding: 5px 20px;
+}
+
+.navbar .right .lang .lang-content {
+  display: none;
+  position: absolute;
+  width: 120px;
+  z-index: 1;
+}
+
+.navbar .right .lang .lang-content button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.07em;
+  color: white;
+  width: 120px;
+  text-decoration: none;
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.navbar .right .lang .lang-content button:hover {
+  background-color: white;
+  color: #3A1C91;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+html {
+  max-width: 1400px;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+.main .header {
+  width: 100%;
+  max-width: 1400px;
+  background: transparent;
+  z-index: 9;
+}
+/*# sourceMappingURL=main.css.map */
